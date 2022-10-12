@@ -2,7 +2,7 @@ import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 
 import {AppComponent} from './app.component';
-import {NgNumbersOnlyInputDirectiveModule} from "ng-numbers-only-input-directive";
+import {CareboxSearchLibModule} from "carebox-search-lib-2";
 
 @NgModule({
   declarations: [
@@ -10,7 +10,7 @@ import {NgNumbersOnlyInputDirectiveModule} from "ng-numbers-only-input-directive
   ],
   imports: [
     BrowserModule,
-    NgNumbersOnlyInputDirectiveModule
+    CareboxSearchLibModule
   ],
   providers: [],
   bootstrap: [AppComponent]
