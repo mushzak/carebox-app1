@@ -1,1 +1,10 @@
-<lib-carebox-search-lib></lib-carebox-search-lib>
+<div id="main">
+  <lib-carebox-search
+    (onSearch)="searchText = $event"
+  >
+  </lib-carebox-search>
+
+  <lib-carebox-details
+    [text]="searchText"
+  ></lib-carebox-details>
+</div>
